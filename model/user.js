@@ -30,6 +30,8 @@ const schema = new Schema(
       ref:"user"
     },
     
+    address:{type:String},
+    
     email:{type:String},
     
     isActive:Boolean,
@@ -41,7 +43,7 @@ const schema = new Schema(
       default:0
     },
     
-    name:{type:String},
+    mobileNum:{type:String},
     
     password:{type:String},
     
