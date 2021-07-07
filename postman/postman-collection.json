@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "TESTING",
-    "_postman_id": "e29a0d45-93c1-4b97-aa92-1dacd134aeb2",
+    "_postman_id": "59a12195-48be-4fa5-9719-0fccd0179711",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -32,7 +32,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -116,7 +116,7 @@
             {
               "name": "getuser",
               "request": {
-                "url": "http://localhost:3000/admin/user/60e54725d4c842055594c37c",
+                "url": "http://localhost:3000/admin/user/60e5494c31d4d805ea1c627f",
                 "method": "GET",
                 "header": [
                   {
@@ -141,7 +141,7 @@
             {
               "name": "updateuser",
               "request": {
-                "url": "http://localhost:3000/admin/user/update/60e54725d4c842055594c37c",
+                "url": "http://localhost:3000/admin/user/update/60e5494c31d4d805ea1c627f",
                 "method": "PUT",
                 "header": [
                   {
@@ -157,7 +157,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -166,7 +166,7 @@
             {
               "name": "partialupdateuser",
               "request": {
-                "url": "http://localhost:3000/admin/user/partial-update/60e54725d4c842055594c37c",
+                "url": "http://localhost:3000/admin/user/partial-update/60e5494c31d4d805ea1c627f",
                 "method": "PUT",
                 "header": [
                   {
@@ -191,7 +191,7 @@
             {
               "name": "softDeleteuser",
               "request": {
-                "url": "http://localhost:3000/admin/user/softDelete/60e54725d4c842055594c37c",
+                "url": "http://localhost:3000/admin/user/softDelete/60e5494c31d4d805ea1c627f",
                 "method": "PUT",
                 "header": [
                   {
@@ -253,7 +253,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -313,7 +313,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60e54725d4c842055594c37d\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60e5494c31d4d805ea1c6280\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -370,7 +370,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -495,7 +495,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -591,7 +591,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -651,7 +651,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60e54725d4c842055594c37e\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60e5494c31d4d805ea1c6281\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -708,7 +708,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -833,7 +833,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -929,7 +929,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -989,7 +989,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60e54725d4c842055594c37f\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60e5494c31d4d805ea1c6282\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
@@ -1046,7 +1046,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -1171,7 +1171,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -1267,7 +1267,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Gayle Macejkovic\",\n  \"password\": \"ex5tmwB_0_waAa3\",\n  \"email\": \"Gudrun_Considine@yahoo.com\",\n  \"address\": \"56011 Bruen Forest\",\n  \"mobileNum\": \"Enhanced\",\n  \"company\": \"program\",\n  \"isDeleted\": true,\n  \"isActive\": true,\n  \"role\": 1\n}"
+                  "raw": "{\n  \"username\": \"Ms. Paul Shields\",\n  \"password\": \"XIaaXZI6Ou6wh7Y\",\n  \"email\": \"Sister.Streich@hotmail.com\",\n  \"address\": \"4817 Emmerich Creek\",\n  \"mobileNum\": \"Dollar\",\n  \"company\": \"Cambridgeshire\",\n  \"isDeleted\": false,\n  \"isActive\": false,\n  \"role\": 1\n}"
                 },
                 "description": ""
               },
@@ -1327,7 +1327,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"60e54725d4c842055594c380\",\n  \"newPassword\": \"YourNewPassword\"\n}"
+                  "raw": "{\n  \"userId\": \"60e5494c31d4d805ea1c6283\",\n  \"newPassword\": \"YourNewPassword\"\n}"
                 },
                 "description": ""
               },
