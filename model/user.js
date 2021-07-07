@@ -32,6 +32,8 @@ const schema = new Schema(
     
     address:{type:String},
     
+    company:{type:String},
+    
     email:{type:String},
     
     isActive:Boolean,

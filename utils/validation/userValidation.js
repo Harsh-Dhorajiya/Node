@@ -15,6 +15,7 @@ exports.schemaKeys = {
   email: joi.string().email(),
   address: joi.string(),
   mobileNum: joi.string(),
+  company: joi.string(),
   role: joi.number().integer().valid(...convertObjectToEnum(USER_ROLE)),
   resetPasswordLink: joi.object({
     code:joi.string(),
@@ -31,6 +32,7 @@ exports.updateSchemaKeys = {
   email: joi.string().email(),
   address: joi.string(),
   mobileNum: joi.string(),
+  company: joi.string(),
   role: joi.number().integer().valid(...convertObjectToEnum(USER_ROLE)),
   resetPasswordLink: joi.object({
     code:joi.string(),
